@@ -32,6 +32,7 @@
   * Go ahead and create the environments as he creates them in the tutorial.
 
 ## Conda Concepts
+Make changes for assignment
 
 * [ ] Describe the Conda concepts used in the video and listed in the table below.
 
