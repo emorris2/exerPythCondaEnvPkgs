@@ -42,3 +42,5 @@ da35			    * C:\Useers\emaem\anaconda3\envs\da35
 #Type the command here.
 
 Conda env remove –-name bio-env
+
+End of assignment.
