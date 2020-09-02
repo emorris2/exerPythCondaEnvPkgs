@@ -43,4 +43,4 @@ da35			    * C:\Useers\emaem\anaconda3\envs\da35
 
 Conda env remove –-name bio-env
 
-End of assignment.
+End of assignment that is due 9/8/20.
