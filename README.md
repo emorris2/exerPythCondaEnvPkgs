@@ -38,29 +38,35 @@ Make changes for assignment
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(enter description or short answer here)|
-|What is the default package manager in Python?            |(enter description or short answer here)|
-|How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
-|`conda list`       |(enter description or short answer here)|
-|`conda env list`       |(enter description or short answer here)|
-|How do you keep your base environment unchanged?       |(enter description or short answer here)|
-|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(enter description or short answer here)|
-|`conda create --name XXXX`       |(enter description or short answer here)|
-|`source activate XXXX`       |(enter description or short answer here)|
-|`conda install YYYY`       |(enter description or short answer here)|
-|channels in Conda       |(enter description or short answer here)|
-|`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
-|`conda config --show channels`       |(enter description or short answer here)|
-|`conda config --add channels ZZZZ`       |(enter description or short answer here)|
-|conda-forge.org       |(enter description or short answer here)|
-|`source deactivate`       |(enter description or short answer here)|
-|`conda config --get channels`       |(enter description or short answer here)|
+|What is the purpose of having different environments?     |(To manage different packages that are needed for different projects.)|
+|What is the default package manager in Python?            |(Pip)|
+|How do you manage environments and packages in Anaconda?  |(Install Conda on computer and use it.)|
+|`conda list`       |(List shows default packages installed on computer)|
+|`conda env list`       |(List of default environments installed.)|
+|How do you keep your base environment unchanged?       |(Make a separate new environment different from base.)|
+|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)|
+|`conda create --name XXXX`       |(conda create --name ai383 python=3.8.3 created new environment to work in.)|
+|`source activate XXXX`       |(Conda activate ai383 run It, it shows you are working in new environment)|
+|`conda install YYYY`       |(Conda install Numpy installed numpy in da35 soenvironment)|
+|channels in Conda       |(describes path where conda looks for packages available.)|
+|`conda install -c ZZZZ YYYY`       |(Use channel one time to get package)|
+|`conda config --show channels`       |(default channel-path conda uses when conda install runs to find packages)|
+|`conda config --add channels ZZZZ`       |(able to add to channel and keep on channel list)|
+|conda-forge.org       |(different channel for python but community led.)|
+|`source deactivate`       |(takes you to base channel.)|
+|`conda config --get channels`       |(Shows channels in low to high priority where conda will look.)|
 
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
 ```
 #Paste your results here.
 
+(da35) C:\Users\emaem>conda env list
+# conda environments:
+#
+base				C:\Users\emaem\anaconda3
+ai383				C:\Users\emaem\anaconda3\envs\ai383
+da35			    * C:\Useers\emaem\anaconda3\envs\da35
 
 ```
 * What command would you use to remove the environments you created for this exercise from your computer?
@@ -68,4 +74,9 @@ Make changes for assignment
 ```
 #Type the command here.
 
+Conda env remove –-name bio-env
+
+
+End of assignment.
+End of assignment that is due 9/8/20.
 ```
